@@ -324,3 +324,13 @@ a, a:hover {
     width:100%;
   }
 }
+.but{
+  padding: 5px;
+  border-radius: 2px;
+}
+.but:hover
+{
+background-color: #d9e0e8 !important;
+color: maroon !important;
+border: 0.5px solid maroon !important;
+}

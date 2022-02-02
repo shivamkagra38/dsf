@@ -105,11 +105,11 @@ app.get("/", launchStatus, function (req, res) {
   res.render("index");
 });
 
-app.get("/c", launchStatus, function (req, res) {
-  res.render("c");
+app.get("/SMP-Programs", launchStatus, function (req, res) {
+  res.render("SMP-Programs");
 });
-app.get("/smp", launchStatus, function (req, res) {
-  res.render("smp");
+app.get("/SMP-Registration", launchStatus, function (req, res) {
+  res.render("SMP-Registration");
 });
 
 
@@ -195,8 +195,8 @@ app.put('/setActivation', (req, res)=>{
 })
 
 
-app.listen(process.env.PORT || 8080, function () {
-  console.log("Server running at port 8080");
+app.listen(process.env.PORT || 4500, function () {
+  console.log("Server running at port 4500");
 });
 
 
